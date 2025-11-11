@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(image3.png);
+    background-repeat: repeat-y;
+    background-position: top right 20px;
+    background-color: rgb(212, 241, 45); */
+    /* background-size: cover; */
+    /* background: url(flag1.png) no-repeat top left; */
+    /* background-size: cover; */
+}
+p{
+    color: rgb(137, 218, 33);
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 0px 3px;
+    text-transform: uppercase;
+
+}
+#para{
+    color: rgb(109, 11, 238);
+    display: inline-block;
+    font-style: initial;
+
+}
+img{
+    float: right;
+    margin-right: 20px;
+    border: solid black;
+}
