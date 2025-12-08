@@ -2,26 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 main {
+    background-color: rgb(252, 206, 206);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
     flex-wrap: wrap;
 }
 
 .card {
     display: flex;
     padding: 3rem;
-    background-color: rgb(199, 158, 199);
+    background-color: rgb(104, 167, 98);
     flex-direction: column;
     justify-content: center;
     align-self: center;
     width: fit-content;
-    max-width: 350px;
+    max-width: 300px;
 }
 
 .card img {
@@ -33,9 +34,9 @@ main {
 button {
     padding: 0.5rem 1rem;
     border: none;
-    background-color: rgb(14, 54, 26);
-    color: rgba(240, 241, 235, 0.856);
-    font-size: 1.2rem;
+    background-color: rgb(36, 49, 15);
+    color: white;
+    font-size: 1.3rem;
     cursor: pointer;
     margin-top: 1rem;
 }
