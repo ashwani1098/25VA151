@@ -1,42 +1,75 @@
-* {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-main {
-    background-color: rgb(252, 206, 206);
+.title {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 25px;
     flex-wrap: wrap;
+    padding: 30px;
 }
 
 .card {
-    display: flex;
-    padding: 3rem;
-    background-color: rgb(104, 167, 98);
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    width: fit-content;
-    max-width: 300px;
+    background: white;
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card img {
-    width: 200px;
-    height: auto;
-    margin: 1rem 0;
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    margin-bottom: 10px;
 }
 
-button {
-    padding: 0.5rem 1rem;
-    border: none;
-    background-color: rgb(36, 49, 15);
+.card h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card p {
+    color: #555;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.price {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #007bff;
     color: white;
-    font-size: 1.3rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
     cursor: pointer;
-    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #0056b3;
 }
